@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.crm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px;
+}
+
+.crm h1 {
+    background-color: #0add08;
+    height: 65px;
+    font-size: 43px;
+    padding: 19px 4px 3px 17px;
+    color: #fbf7f7;
+}
+
+button {
+    max-width: 180px;
+    height: 45px;
+    border-radius: 6px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+table thead th {
+    background-color: #0add08;
+    font-weight: bold;
+    color: #fbf7f7;
+    font-size: 23px;
+    height: 45px;
+
+}
+
+#tableinput tr td {
+    font-size: 20px;
+    width: 415px;
+    height: 30px;
+    padding-left: 35px;
+}
+/* page 2 */
+#hide{
+    display: none;
+}
+
+form {
+    max-width: 700px;
+    height: 300px;
+}
+
+form p {
+    max-width: 140px;
+    margin: 19px;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+form h2 {
+    font-size: 35px;
+}
+
+form span {
+    display: flex;
+    justify-content: flex-end;
+    gap: 70px;
+}
+
+input.input {
+    width: 400px;
+    height: 35px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    left: 285px;
+    top: 20px;
+}

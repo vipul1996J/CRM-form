@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM - Customer Relationship Manager</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <section id="show">
+        <div class="crm">
+            <h1>CRM - Customer Relationship Manager</h1>
+            <button onclick="run()" id="btn">Add Customer</button>
+            <table id="tabledata">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableinput"></tbody>
+            </table>
+        </div>
+    </section>
+    <section id="hide">
+        <div class="crm">
+            <h1>CRM - Customer Relationship Manager</h1>
+            <h2>Save Customer</h2>
+            <form>
+                <span>
+                    <p>First Name :</p> <input type="text" class="input" id="first">
+                </span>
+                <span>
+                    <p>Last Name :</p> <input type="text" class="input" id="second">
+                </span>
+                <span>
+                    <p>Email :</p> <input type="email" class="input" id="third">
+                </span>
+                <input type="button" value="Save" onclick="sv()">
+            </form>
+            <a href="#" onclick="bck()" id="return">Back to List</a>
+        </div>
+    </section>
+
+    <script src="index.js "></script>
+
+</body>
+
+</html>
